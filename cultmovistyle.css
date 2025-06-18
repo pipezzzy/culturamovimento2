@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: url('logo site favela.png') no-repeat center center fixed;
+    background-size: contain; 
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1; 
+}
+
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    position: relative;
+    margin: 200px auto;
+    text-align: center; 
+}
+#locais{
+    margin-bottom: 10px;
+    text-align: center;
+}
+#Inst {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+details {
+    width: 100%;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
